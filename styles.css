@@ -20,6 +20,18 @@ p {
 .container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  gap: 20px;
+  /* flex-direction: column;
+  align-items: center; */
+}
+
+.left,
+.right {
+  width: 40%;
+  text-align: center;
+  border: 5px solid black;
+}
+
+.right {
+  background: red;
 }
